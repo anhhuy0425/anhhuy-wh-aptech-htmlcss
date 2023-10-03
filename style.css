@@ -1,0 +1,167 @@
+body {
+    box-sizing: border-box;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+}
+
+#headingmains {
+    display: inline-block;
+    margin: 0px 0px 5px 30px;
+    font-family: 'Kanit', sans-serif;
+    opacity: 0.6;
+    line-height: 40px;
+}
+
+#headingmains>h2 {
+    font-size: 40px;
+}
+
+#headingmains>p ,#sub-headingmains>p {
+    font-size: 12px;
+}
+
+#sub-headingmains {
+    display: inline-block;
+    margin: 0px 30px 5px 0px;
+    font-family: 'Kanit', sans-serif;
+    opacity: 0.6;
+    line-height: 40px;
+    text-align: center;
+}
+#sub-headingmains>h3 {
+    font-size: 20px;
+    border-bottom: 3px solid black;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    background-color: #6666FF;
+    margin-bottom: 20px;
+}
+
+.menu>li{
+    display: inline-block;
+    padding: 20px;
+}
+
+.menu>li>a{
+    text-decoration: none;
+    font-weight: 800;
+    font-family: monospace;
+    font-size: 1rem;
+    color: #e7e7dc;
+}
+
+.menu>li:hover, .menu>li:hover a{
+    background-color: #000;
+    color: #fff;
+}
+
+.headingcontents {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 30px 5px 0px;
+    font-family: 'Kanit', sans-serif;
+    opacity: 0.6;
+    line-height: 40px;
+}
+
+.headingcontents>h1 {
+    font-size: 30px;
+}
+
+.headingcontents>h4 {
+    border-top: 3px solid black;
+    margin-bottom: 20px;
+}
+
+.first-grow-imgs, .second-grow-imgs{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.imgs, .imgs2 {
+    width: 200px;
+    height: 200px;
+    background-size: contain;
+    border-radius: 999px;
+    background-color: #6666FF;
+}
+
+.imgs2 {
+    margin-top: 30px;
+}
+
+.imgs:nth-child(1) {
+    background-image: url(https://images.unsplash.com/photo-1617531653635-4b0e357c091b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGJtd3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+}
+
+.imgs:nth-child(2) {
+    background-image: url(https://images.unsplash.com/photo-1629450646456-b7a01cdec01a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGJtd3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+    
+}
+
+.imgs:nth-child(3) {
+    background-image: url(https://images.unsplash.com/photo-1544986342-f4f2e11b7c02?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8Ym13fGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+}
+
+.imgs:nth-child(4) {
+    background-image: url(https://images.unsplash.com/photo-1512206818698-0038a42885fa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Ym13fGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+}
+
+.imgs2:nth-child(1) {
+    background-image: url(https://images.unsplash.com/photo-1676919296166-8a0073af972f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8dmluZmFzdHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+}
+
+.imgs2:nth-child(2) {
+    background-image: url(https://scontent.fsgn2-6.fna.fbcdn.net/v/t39.30808-6/383155680_615858387429086_2518888844337002803_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=49d041&_nc_ohc=lJRUKlGB7ToAX8sU3bz&_nc_ht=scontent.fsgn2-6.fna&oh=00_AfAlAjXOuRimmKEyUazheCWwkw8tlykCYWpfUFbABb7hiw&oe=65201571);
+    background-size: cover;
+}
+
+.imgs2:nth-child(3) {
+    background-image: url(https://scontent.fsgn2-9.fna.fbcdn.net/v/t39.30808-6/383341771_615858270762431_6855570665699228345_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=49d041&_nc_ohc=oQxwmsPc9hYAX8spfdG&_nc_ht=scontent.fsgn2-9.fna&oh=00_AfDCkC7Dr0Pelfw9TtBp6vjrwHDPooKkV7FkdCrOMJVfRw&oe=651FC35D);
+    background-size: cover;
+}
+
+.imgs2:nth-child(4) {
+    background-image: url(https://scontent.fsgn2-3.fna.fbcdn.net/v/t39.30808-6/379871433_609135028101422_1762596877045660396_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=49d041&_nc_ohc=X6JkYLD4fBEAX96e_xr&_nc_ht=scontent.fsgn2-3.fna&oh=00_AfB6TSTBmZA9o6t3g7pGzkJcaxQ-nRxTUlCMhn6YSQ_O1g&oe=651F7362);
+    background-size: cover;
+}
+
+section {
+    position: relative;
+}
+
+.btn-contents>a {
+    position: absolute;
+    display: flex;
+    top: 95%;
+    left: 42.6%;
+    width: fit-content;
+    margin: 50px;
+    padding: 10px;
+    border: 3px #6666FF solid;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: #6666FF;
+    color: #fff;
+}
+
+footer {
+    margin-top: 100px;
+    display: block;
+    background-color: #000;
+    color: #00ffbf;
+    padding: 20px;
+}
