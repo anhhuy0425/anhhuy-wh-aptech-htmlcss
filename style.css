@@ -143,19 +143,20 @@ section {
     position: relative;
 }
 
-.btn-contents>a {
-    position: absolute;
+.btn-contents {
     display: flex;
-    top: 95%;
-    left: 42.6%;
-    width: fit-content;
-    margin: 50px;
+    justify-content: center;
+}
+
+.btn-contents>a {
+    border: 5px solid #6666FF;
+    border-radius: 3px;
     padding: 10px;
-    border: 3px #6666FF solid;
     text-decoration: none;
-    border-radius: 5px;
     background-color: #6666FF;
     color: #fff;
+    font-weight: 600;
+    font-family: monospace;
 }
 
 footer {
